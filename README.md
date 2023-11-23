@@ -1,14 +1,14 @@
 # C_Webserver 
 ## A simple Webserver written in C 
 
-*** 
+
 ### TODO's 
--[ ] add Makefile
--[ ] POST support
--[ ] Increase Backlog 
--[ ] Deamon mode
--[ ] Commandline Args 
--[ ] threading for Sockets 
+- [ ] add Makefile
+- [ ] POST support
+- [ ] Increase Backlog 
+- [ ] Deamon mode
+- [ ] Commandline Args 
+- [ ] threading for Sockets 
 
 
 ### Info 

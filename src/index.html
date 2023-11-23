@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>No Web please</title>
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="styles/navbar.css"/> 
+    </head>
+    <body>  
+        <header>
+            <div class="logo">
+                <img src="/img/C_Logo.png" class="logo-img">
+            </div>  
+            <div class="hamburger">
+                <div class="line"></div> 
+                <div class="line"></div> 
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="/">Home</a></li>  
+                    <li><a href="/">Socket</a></li> 
+                    <li><a href="/">Filehandler</a></li> 
+                    <li><a href="/">Webserver</a></li> 
+                </ul>
+            </nav>
+        </header> 
+        <script>
+            hamburger = document.querySelector(".hamburger"); 
+            hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");  
+            navBar.classList.toggle("active"); 
+        } 
+        </script>
+        <div class="main-container">   
+            <div class="terminal-container">    
+                <div class="terminal-toolbar">
+                    <div class="btn-bx"> 
+                        <button class="exit-btn"></button> 
+                        <button class="min-btn"></button> 
+                        <button class="max-btn"></button>
+                    </div> 
+                    <p class="user">root@linux: ~</p> 
+                </div>   
+                <div class="terminal-body"> 
+                    <div class="terminal-prompt">
+                        <span class="terminal_user">root@linux:</span>  
+                        <span class="terminal_location">~</span> 
+                        <span class="terminal_bling">#</span>
+                        <span class="terminal_cursor"></span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </body> 
+</html> 

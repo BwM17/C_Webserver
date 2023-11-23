@@ -12,5 +12,4 @@
 
 
 ### Info 
-This Webserver is a small Porject Written in C,
-thus this Server is not Safe
+This Webserver is a small project written in C, thus this Server is **not Safe**
